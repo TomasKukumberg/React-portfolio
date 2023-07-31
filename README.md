@@ -1,5 +1,5 @@
 # React-portfolio
-Portfolio summing my work experience, learned technologies and information about me like education etc. I used the video mentioned below for an inspiration, but i made multiple changes along the way like code splitting and making my own new React components.
+Portfolio summing my work experience, learned technologies and more. I used the video mentioned below for inspiration, but i made multiple changes along the way like code splitting and making my own new React components.
 
 ## Tech stack
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
