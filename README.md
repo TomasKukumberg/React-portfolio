@@ -1,4 +1,4 @@
-# React-portfolio
+# React Portfolio
 Portfolio summing my work experience, learned technologies and more. I used the video mentioned below for inspiration, but i made multiple changes along the way like code splitting and making my own new React components.
 
 ## Tech stack
@@ -18,7 +18,7 @@ git clone https://github.com/TomasKukumberg/React-portfolio.git
 ```
 ### 2. Change into directory
 ```bash
-cd React-portfolio
+cd React_Portfolio
 ```
 ### 3. Install dependencies
 ```bash
