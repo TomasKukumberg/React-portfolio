@@ -19,11 +19,11 @@ const Sidenav = () => {
             {
                 nav ? (
                     <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-                        <SideNavItem id='#main' icon='AiHome' spanText='Home' />
-                        <SideNavItem id='#timeline' icon='GrProjects' spanText='Timeline' />
-                        <SideNavItem id='#projects' icon='AiProject' spanText='Projects' />
-                        <SideNavItem id='#person' icon='BsPerson' spanText='Resume' />
-                        <SideNavItem id='#contact' icon='AiMail' spanText='Contact' />
+                        <SideNavItem id='#main' icon='AiHome' spanText='Home' handleNav={handleNav} />
+                        <SideNavItem id='#timeline' icon='GrProjects' spanText='Timeline' handleNav={handleNav} />
+                        <SideNavItem id='#projects' icon='AiProject' spanText='Projects' handleNav={handleNav} />
+                        <SideNavItem id='#person' icon='BsPerson' spanText='Resume' handleNav={handleNav} />
+                        <SideNavItem id='#contact' icon='AiMail' spanText='Contact' handleNav={handleNav} />
                     </div>
                 ) : (
                     ''
@@ -31,11 +31,11 @@ const Sidenav = () => {
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
-                    <SidenavMdItem id='#main' icon='AiHome' />
-                    <SidenavMdItem id='#timeline' icon='GrProjects' />
-                    <SidenavMdItem id='#projects' icon='AiProject' />
-                    <SidenavMdItem id='#person' icon='BsPerson' />
-                    <SidenavMdItem id='#contact' icon='AiMail' />
+                    <SidenavMdItem id='#main' icon='AiHome' handleNav={handleNav} />
+                    <SidenavMdItem id='#timeline' icon='GrProjects' handleNav={handleNav} />
+                    <SidenavMdItem id='#projects' icon='AiProject' handleNav={handleNav} />
+                    <SidenavMdItem id='#person' icon='BsPerson' handleNav={handleNav} />
+                    <SidenavMdItem id='#contact' icon='AiMail' handleNav={handleNav} />
                 </div>
             </div>
         </div>

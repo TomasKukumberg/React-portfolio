@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
 import Timeline from './components/Timeline'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
       <Sidenav />
       <Main />
       <Timeline />
+      <Projects />
+      <Contact />
     </>
   )
 }
