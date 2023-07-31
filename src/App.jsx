@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import Timeline from './components/Timeline'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Sidenav from './components/Sidenav';
+import Main from './components/Main';
+import Timeline from './components/Timeline';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import { education } from './data/education';
+import { work } from './data/work';
 
 function App() {
 
@@ -11,11 +12,12 @@ function App() {
     <>
       <Sidenav />
       <Main />
-      <Timeline />
+      <Timeline id='work' data={work} title='Work' />
+      <Timeline id='education' data={education} title='Education' />
       <Projects />
       <Contact />
     </>
   )
 }
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const TimelineItem = ({year, title, duration, details}) => {
     return (
@@ -16,4 +16,4 @@ const TimelineItem = ({year, title, duration, details}) => {
     )
 }
 
-export default TimelineItem
+export default TimelineItem;

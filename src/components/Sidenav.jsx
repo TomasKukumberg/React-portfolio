@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
-import { GrProjects } from 'react-icons/gr';
-import { BsPerson } from 'react-icons/bs'
+import {BiSolidBusiness} from 'react-icons/bi';
+import { IoSchool } from 'react-icons/io5';
 import SidenavMdItem from './SidenavMdItem';
 import SideNavItem from './SideNavItem';
 
@@ -19,11 +19,11 @@ const Sidenav = () => {
             {
                 nav ? (
                     <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-                        <SideNavItem id='#main' icon='AiHome' spanText='Home' handleNav={handleNav} />
-                        <SideNavItem id='#timeline' icon='GrProjects' spanText='Timeline' handleNav={handleNav} />
-                        <SideNavItem id='#projects' icon='AiProject' spanText='Projects' handleNav={handleNav} />
-                        <SideNavItem id='#person' icon='BsPerson' spanText='Resume' handleNav={handleNav} />
-                        <SideNavItem id='#contact' icon='AiMail' spanText='Contact' handleNav={handleNav} />
+                        <SideNavItem id='main' icon={<AiOutlineHome size={20} />} text='Home' handleNav={handleNav} />
+                        <SideNavItem id='work' icon={<BiSolidBusiness size={20} />} text='Work' handleNav={handleNav} />
+                        <SideNavItem id='education' icon={<IoSchool size={20} />} text='Education' handleNav={handleNav} />
+                        <SideNavItem id='projects' icon={<AiOutlineProject size={20} />} text='Projects' handleNav={handleNav} />
+                        <SideNavItem id='contact' icon={<AiOutlineMail size={20} />} text='Contact' handleNav={handleNav} />
                     </div>
                 ) : (
                     ''
@@ -31,15 +31,15 @@ const Sidenav = () => {
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
-                    <SidenavMdItem id='#main' icon='AiHome' />
-                    <SidenavMdItem id='#timeline' icon='GrProjects' />
-                    <SidenavMdItem id='#projects' icon='AiProject' />
-                    <SidenavMdItem id='#person' icon='BsPerson' />
-                    <SidenavMdItem id='#contact' icon='AiMail' />
+                    <SidenavMdItem id='main' icon={<AiOutlineHome size={20} />} text='Home' />
+                    <SidenavMdItem id='work' icon={<BiSolidBusiness size={20} />} text='Work' />
+                    <SidenavMdItem id='education' icon={<IoSchool size={20} />} text='Education' />
+                    <SidenavMdItem id='projects' icon={<AiOutlineProject size={20} />} text='Projects' />
+                    <SidenavMdItem id='contact' icon={<AiOutlineMail size={20} />} text='Contact' />
                 </div>
             </div>
         </div>
     )
 }
 
-export default Sidenav
+export default Sidenav;

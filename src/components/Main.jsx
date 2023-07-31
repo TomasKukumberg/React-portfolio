@@ -1,7 +1,7 @@
-import React from 'react'
-import nature from '../assets/nature-person.jpg'
-import { TypeAnimation } from 'react-type-animation'
-import { FaLinkedin, FaGithub, FaFacebook, FaTwitter } from 'react-icons/fa'
+import React from 'react';
+import nature from '../assets/nature-person.jpg';
+import { TypeAnimation } from 'react-type-animation';
+import { FaLinkedin, FaGithub, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Main = () => {
     return (
@@ -43,4 +43,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Main;

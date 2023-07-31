@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ProjectItem from './ProjectItem';
 import aoc from '../assets/aoc.png';
 import realTimeImg from '../assets/real-time.png';
@@ -9,9 +9,7 @@ const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
       <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
-      <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Nobis ut dolor quas ea necessitatibus architecto debitis deleniti maiores, ratione impedit tempore corrupti adipisci laudantium iste totam harum quae accusantium aspernatur.
-      </p>
+      <p className='text-center py-8'>Here are some of my projects from Github. You can check out the source code by hovering over each card and opening them.</p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={aoc} title='Advent of Code programming challenge' link='https://github.com/TomasKukumberg/Advent_Of_Code' />
         <ProjectItem img={realTimeImg} title='Navigation map with JS using EventSource API' link='https://github.com/TomasKukumberg/Real_Time_Graph' />
