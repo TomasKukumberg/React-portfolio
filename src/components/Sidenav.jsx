@@ -31,11 +31,11 @@ const Sidenav = () => {
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
-                    <SidenavMdItem id='#main' icon='AiHome' handleNav={handleNav} />
-                    <SidenavMdItem id='#timeline' icon='GrProjects' handleNav={handleNav} />
-                    <SidenavMdItem id='#projects' icon='AiProject' handleNav={handleNav} />
-                    <SidenavMdItem id='#person' icon='BsPerson' handleNav={handleNav} />
-                    <SidenavMdItem id='#contact' icon='AiMail' handleNav={handleNav} />
+                    <SidenavMdItem id='#main' icon='AiHome' />
+                    <SidenavMdItem id='#timeline' icon='GrProjects' />
+                    <SidenavMdItem id='#projects' icon='AiProject' />
+                    <SidenavMdItem id='#person' icon='BsPerson' />
+                    <SidenavMdItem id='#contact' icon='AiMail' />
                 </div>
             </div>
         </div>
