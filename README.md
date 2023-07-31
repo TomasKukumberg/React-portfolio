@@ -8,6 +8,7 @@ Portfolio summing my work experience, learned technologies and more. I used the 
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
+Form is managed by [app.getform.io](https://app.getform.io).
 
 ## Run the project
 
