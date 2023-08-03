@@ -9,7 +9,7 @@ const Main = () => {
             <img src={nature} alt="" className='w-full h-screen object-cover object-left' />
             <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'> {/*lg:items-start*/}
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Tomáš Kukumberg</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 text-center'>I'm Tomáš Kukumberg</h1>
                     <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I'm a
                         <TypeAnimation
                             sequence={[
@@ -32,10 +32,9 @@ const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaLinkedin className='cursor-pointer' size={20} />
-                        <FaGithub className='cursor-pointer' size={20} />
-                        <FaFacebook className='cursor-pointer' size={20} />
-                        <FaTwitter className='cursor-pointer' size={20} />
+                        <a href='https://www.linkedin.com/in/tom%C3%A1%C5%A1-kukumberg-8105a8281'><FaLinkedin size={20} /></a>
+                        <a href='https://github.com/TomasKukumberg?tab=repositories'><FaGithub size={20} /></a>
+                        <a href='https://www.facebook.com/tomas.kukumberg.94/'><FaFacebook className='cursor-pointer' size={20} /></a>
                     </div>
                 </div>
             </div>
