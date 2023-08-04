@@ -1,6 +1,8 @@
 # React Portfolio
 Portfolio summing my work experience, learned technologies and more. I used the video mentioned below for inspiration, but i made multiple changes along the way like code splitting and making my own new React components.
 
+You can check out the website on [https://tomaskukumberg.github.io](https://tomaskukumberg.github.io).
+
 ## Tech stack
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
