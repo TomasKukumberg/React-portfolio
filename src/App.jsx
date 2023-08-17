@@ -5,8 +5,11 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { education } from './data/education';
 import { work } from './data/work';
+import { useHashFragment } from './hooks/useFragment';
 
 function App() {
+
+  useHashFragment();
 
   return (
     <>
