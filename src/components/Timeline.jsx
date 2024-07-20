@@ -4,7 +4,7 @@ import TimelineItem from './TimelineItem';
 const Timeline = ({id, data, title}) => {
     return (
         <div id={id} className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-[#001b5e]'>{title}</h1>
+            <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>{title}</h1>
             {
                 data.map((item, idx) => (
                     <TimelineItem 
