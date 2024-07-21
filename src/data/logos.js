@@ -16,62 +16,77 @@ import jiraLogo from '../assets/jira.svg'
 
 export const logos = [
     {
+        id: 1,
         name: 'react',
         src: reactLogo,
     },
     {
+        id: 2,
         name: 'vue',
         src: vueLogo,
     },
     {
+        id: 3,
         name: 'typescript',
         src: tsLogo,
     },
     {
+        id: 4,
         name: 'tailwind',
         src: tailwindLogo,
     },
     {
+        id: 5,
         name: 'bootstrap',
         src: bootstrapLogo,
     },
     {
+        id: 6,
         name: 'laravel',
         src: laravelLogo,
     },
     {
+        id: 7,
         name: 'html',
         src: htmlLogo,
     },
     {
+        id: 8,
         name: 'css',
         src: cssLogo,
     },
     {
+        id: 9,
         name: 'javascript',
         src: jsLogo,
     },
     {
+        id: 10,
         name: 'alpine',
         src: alpineLogo,
     },
     {
+        id: 11,
         name: 'vite',
         src: viteLogo,
     },
     {
+        id: 12,
         name: 'webpack',
         src: webpackLogo,
     },
     {
+        id: 13,
         name: 'typo3',
         src: typoLogo,
     },
     {
+        id: 14,
         name: 'linux',
         src: linuxLogo,
     },
     {
+        id: 15,
         name: 'jira',
         src: jiraLogo,
     },

@@ -8,7 +8,7 @@ const Logos = () => {
             <div className='flex w-[150px * 15] animate-scroll'>
                 {
                     logos.map(logo => (
-                        <div className='w-[150px]'>
+                        <div key={logo.id} className='w-[150px]'>
                             <img src={logo.src} alt={`${logo.name} logo`} className="h-[90px]" />
                         </div>
                     ))
